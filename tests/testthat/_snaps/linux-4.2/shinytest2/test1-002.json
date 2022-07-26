@@ -1,0 +1,60 @@
+{
+  "output": {
+    "plt": {
+      "src": "[image data hash: cf9339c0b06f591c0305cdb9c6f81e76]",
+      "width": 612,
+      "height": 640,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 0.4,
+              "right": 10.6,
+              "bottom": -315.36,
+              "top": 6622.56,
+              "discrete_limits": {
+                "x": [
+                  "MALIGNANT\nNEOPLASM\nPROGRESSION",
+                  "DEATH",
+                  "FATIGUE",
+                  "PRODUCT USE\nIN UNAPPROVED\nINDICATION",
+                  "OFF LABEL USE",
+                  "DIARRHOEA",
+                  "PYREXIA",
+                  "NAUSEA",
+                  "RASH",
+                  "DYSPNOEA"
+                ]
+              }
+            },
+            "mapping": {
+              "x": "reorder(Event, Count, FUN = function(x) -x)",
+              "y": "Count"
+            },
+            "range": {
+              "left": 60.0306849315069,
+              "right": 606.520547945205,
+              "bottom": 540.746272032946,
+              "top": 52.470904109589
+            }
+          }
+        ],
+        "dims": {
+          "width": 612,
+          "height": 640
+        }
+      }
+    }
+  }
+}
